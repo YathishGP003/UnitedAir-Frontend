@@ -1,0 +1,94 @@
+:root,
+[data-theme="light"] {
+  color-scheme: light;
+  --canvas: #f7f5ef;
+  --canvas-deep: #efede6;
+  --surface: #fffefa;
+  --surface-raised: #ffffff;
+  --surface-muted: #f1efe8;
+  --surface-inverse: #17212b;
+  --ink: #1c232b;
+  --ink-soft: #4d5864;
+  --ink-muted: #58646f;
+  --ink-faint: #5d6974;
+  --hairline: #dedbd1;
+  --hairline-strong: #c8c4b8;
+  --united: #1769aa;
+  --united-strong: #0f548d;
+  --united-soft: #e8f2fa;
+  --united-line: #a9cee9;
+  --coral: #bd5b45;
+  --coral-soft: #faece8;
+  --success: #287c57;
+  --success-soft: #e6f4ed;
+  --amber: #965d10;
+  --amber-soft: #fbf0dc;
+  --danger: #b34141;
+  --danger-soft: #f9e8e8;
+  --violet: #6558a6;
+  --violet-soft: #efedf8;
+
+  /* Compatibility map for the original component stylesheet. */
+  --bg-base: var(--canvas);
+  --bg-sunken: var(--canvas-deep);
+  --bg-panel: var(--surface);
+  --bg-raised: var(--surface-muted);
+  --bg-hover: #ebe8df;
+  --bg-input: var(--surface-raised);
+  --brand: var(--united);
+  --brand-strong: var(--united-strong);
+  --brand-dim: var(--united-soft);
+  --brand-line: var(--united-line);
+  --ok: var(--success);
+  --ok-dim: var(--success-soft);
+  --warn: var(--amber);
+  --warn-dim: var(--amber-soft);
+  --danger-dim: var(--danger-soft);
+  --info: var(--violet);
+  --info-dim: var(--violet-soft);
+  --text: var(--ink);
+  --text-soft: var(--ink-soft);
+  --text-dim: var(--ink-muted);
+  --text-faint: var(--ink-faint);
+  --line: var(--hairline);
+  --line-soft: #e9e6de;
+  --line-strong: var(--hairline-strong);
+  --shadow-sm: 0 1px 2px rgba(28, 35, 43, 0.06);
+  --shadow-md: 0 14px 36px rgba(28, 35, 43, 0.09);
+  --shadow-lg: 0 28px 80px rgba(28, 35, 43, 0.16);
+}
+
+:root {
+  --font: "Aptos", "Segoe UI Variable Text", "Segoe UI", sans-serif;
+  --display: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --mono: "Cascadia Mono", "Cascadia Code", Consolas, monospace;
+  --fs-xs: 0.72rem;
+  --fs-sm: 0.82rem;
+  --fs-md: 0.94rem;
+  --fs-lg: 1.08rem;
+  --fs-xl: 1.32rem;
+  --fs-2xl: clamp(1.7rem, 3vw, 2.35rem);
+  --fs-3xl: clamp(2.35rem, 6vw, 4.7rem);
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.25rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --r-sm: 7px;
+  --r-md: 11px;
+  --r-lg: 16px;
+  --r-xl: 24px;
+  --r-pill: 999px;
+  --ease: cubic-bezier(0.2, 0.75, 0.25, 1);
+  --fast: 140ms;
+  --med: 260ms;
+  --header-h: 68px;
+  --rail-w: 252px;
+  --panel-w: 366px;
+  --content-w: 820px;
+}

@@ -1,0 +1,41 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Vite cache
+.vite/
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local shell history or runtime files
+*.log
+
+# Optional: ignore local generated files from screenshot tools or other scripts
+.screenshots/
+
+# Keep package-lock.json committed for consistent installs
+# Keep tsconfig, Vite config, and source files in Git
